@@ -1,0 +1,29 @@
+.gallery {
+    grid-template-areas: 
+    "gallery gallery gallery gallery"
+    "gallery gallery gallery gallery"
+    "gallery gallery gallery gallery"
+    "gallery gallery gallery gallery"    
+}
+
+.gallery{
+grid-area: gallery;
+
+}
+
+.see-more {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+
+    /*margin: auto;*/
+}
+
+.button-image-container{
+    position: relative;
+    /*display:flex*/
+}    
+
+   
